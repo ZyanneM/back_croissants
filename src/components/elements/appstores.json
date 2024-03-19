@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_appstores",
+  "info": {
+    "displayName": "appstores",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "store": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::store.store"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_form_pages",
+  "info": {
+    "singularName": "contact-form-page",
+    "pluralName": "contact-form-pages",
+    "displayName": "ContactFormPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

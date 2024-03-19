@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_elements_call_to_actions",
+  "info": {
+    "displayName": "call-to-action"
+  },
+  "options": {},
+  "attributes": {
+    "buttontext": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_social_media_blocs",
+  "info": {
+    "displayName": "Social-Media-Bloc",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "horizontal-bloc",
+        "vertical-bloc"
+      ]
+    },
+    "socialmedia": {
+      "displayName": "socialmedia",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.socialmedia"
+    }
+  }
+}

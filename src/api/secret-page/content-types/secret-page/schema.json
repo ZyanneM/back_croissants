@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "secret_pages",
+  "info": {
+    "singularName": "secret-page",
+    "pluralName": "secret-pages",
+    "displayName": "SecretPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "titles.page-header"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.skills"
+    }
+  }
+}

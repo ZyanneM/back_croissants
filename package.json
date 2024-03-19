@@ -1,0 +1,32 @@
+{
+  "name": "back-croissants",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.9.2",
+    "@strapi/plugin-users-permissions": "4.9.2",
+    "@strapi/provider-email-sendgrid": "4.10.5",
+    "@strapi/strapi": "4.9.2",
+    "@strapi/utils": "^4.10.6",
+    "dotenv": "^16.0.3",
+    "mysql": "2.18.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "abda07af-7e93-4d3a-9f5a-bd0adb72718c"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

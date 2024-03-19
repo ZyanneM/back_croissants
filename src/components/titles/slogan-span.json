@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_titles_slogan_spans",
+  "info": {
+    "displayName": "sloganSpan"
+  },
+  "options": {},
+  "attributes": {
+    "sloganSpan": {
+      "type": "string"
+    }
+  }
+}

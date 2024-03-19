@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "clients_pages",
+  "info": {
+    "singularName": "clients-page",
+    "pluralName": "clients-pages",
+    "displayName": "ClientsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "titles.page-header"
+    },
+    "clientCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.client"
+    },
+    "slogan": {
+      "type": "string"
+    }
+  }
+}

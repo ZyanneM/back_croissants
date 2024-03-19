@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_functionnalities",
+  "info": {
+    "displayName": "functionnality",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "functionnality": {
+      "type": "string"
+    }
+  }
+}

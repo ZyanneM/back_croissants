@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_requests",
+  "info": {
+    "singularName": "contact-request",
+    "pluralName": "contact-requests",
+    "displayName": "contact-request",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "private": true,
+      "maxLength": 40
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "maxLength": 50,
+      "private": true
+    },
+    "subject": {
+      "type": "enumeration",
+      "enum": [
+        "application",
+        "refonte",
+        "audit",
+        "infos"
+      ]
+    },
+    "message": {
+      "type": "text",
+      "required": true,
+      "private": true
+    }
+  }
+}
