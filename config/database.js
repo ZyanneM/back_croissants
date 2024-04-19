@@ -7,10 +7,15 @@ module.exports = ({ env }) => {
     mysql: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'localhost'),
-        port: env.int('DATABASE_PORT', 3306),
+        // host: env('DATABASE_HOST', 3306),
+        host: env('DATABASE_HOST', 'strapiDB'),
+        // port: env.int('DATABASE_PORT', 3306),
+        // port: env.int('DATABASE_PORT', 3306),
+        // database: env('DATABASE_NAME', 'back_croissants'),
         database: env('DATABASE_NAME', 'strapi'),
+        // user: env('DATABASE_USERNAME', 'root'),
         user: env('DATABASE_USERNAME', 'strapi'),
+        // password: env('DATABASE_PASSWORD', ''),
         password: env('DATABASE_PASSWORD', 'strapi'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
@@ -28,8 +33,8 @@ module.exports = ({ env }) => {
     },
     mysql2: {
       connection: {
-        host: env('DATABASE_HOST', 'localhost'),
-        port: env.int('DATABASE_PORT', 3306),
+        host: env('DATABASE_HOST', 'strapiDB'),
+        // port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'strapi'),
         user: env('DATABASE_USERNAME', 'strapi'),
         password: env('DATABASE_PASSWORD', 'strapi'),
@@ -50,7 +55,7 @@ module.exports = ({ env }) => {
     postgres: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'localhost'),
+        host: env('DATABASE_HOST', 'strapiDB'),
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'strapi'),
         user: env('DATABASE_USERNAME', 'strapi'),

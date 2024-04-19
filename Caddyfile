@@ -1,0 +1,9 @@
+dbakersdev.ovh {
+    # Configuration spécifique pour le domaine client
+    reverse_proxy 127.0.0.1:5173
+}
+
+strapi.dbakersdev.ovh {
+    # Configuration spécifique pour le domaine strapi
+    reverse_proxy strapi:1337
+}
